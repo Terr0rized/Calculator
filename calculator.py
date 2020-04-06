@@ -17,8 +17,8 @@ elif operation == '/':
 
 
 elif operation == '-':
-    def add(first_number, second_number):
+    def sub(first_number, second_number):
         result = first_number - second_number
         print(f'Ответ: {result}')
-    add(first_number, second_number)
+    sub(first_number, second_number)
 
