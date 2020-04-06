@@ -8,3 +8,10 @@ if operation == '+':
         print(f'Ответ: {result}')
     add(first_number, second_number)
 
+
+elif operation == '*':
+    def div(first_number, second_number):
+        return first_number * second_number
+        
+    print('Ответ:', div(first_number, second_number))
+
