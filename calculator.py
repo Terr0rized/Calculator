@@ -9,6 +9,13 @@ if operation == '+':
     add(first_number, second_number)
 
 
+
+elif operation == '*':
+    def mul(first_number, second_number):
+        return first_number * second_number
+        
+    print('Ответ:', mul(first_number, second_number))
+
 elif operation == '/':
     def divide(first_number, second_number):
         result = first_number // second_number
@@ -21,4 +28,5 @@ elif operation == '-':
         result = first_number - second_number
         print(f'Ответ: {result}')
     sub(first_number, second_number)
+
 
