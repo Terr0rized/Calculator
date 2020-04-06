@@ -8,9 +8,17 @@ if operation == '+':
         print(f'Ответ: {result}')
     add(first_number, second_number)
 
+
 elif operation == '/':
     def divide(first_number, second_number):
         result = first_number // second_number
         print(f'Ответ: {result}')
     divide(first_number, second_number)
+
+
+elif operation == '-':
+    def add(first_number, second_number):
+        result = first_number - second_number
+        print(f'Ответ: {result}')
+    add(first_number, second_number)
 
